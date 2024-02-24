@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+</head>
+<style>
+    body{margin: 0;}
+ul.f{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 20%;
+    background-color: whitesmoke;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+ul.f li a{
+display: block;
+color: black;
+padding: 8px 16px;
+text-decoration: none;
+}
+ul.f li a.c{
+    background-color: aqua;
+    color: black;
+
+}
+ul .f li a:hover:not(.c) {
+background-color: violet;
+color: blue;
+}
+div.b{
+    margin-left: 25%;
+    padding: 1px 16px;
+    height: 1000px;
+}
+ @media screen and (max-width:900px){
+    ul.f{
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    ul.f li a{
+        float: left;
+        padding: 15px;
+    }
+    div.b{margin-left: 0;}
+ }
+ @media screen and (max-width: 400px){
+    ul.f li a {
+        text-align: center;
+        float: none;
+    }
+ }
+</style>
+</head>
+<body>
+    <ul class="f">
+        <li><a class="c" href="#home">Home</a></li>
+        <li><a href="#Call Me">Call Me</a></li>
+        <li><a href="#Location">Location</a></li>
+        <li><a href="#Whatsapp">Whatsapp</a></li>
+    </ul>
+    <div class="b">
+        <h2>Responsive Sidenav Example</h2>
+        <p>This example use media queries to transform the sidenav to a top navigation bar when the screen size is 900px
+            or less.</p>
+        <p>This example use media queries to transform the sidenav to a top navigation bar when the screen size is 900px
+            or less.</p>
+            <h3>Examples</h3>
+    </div>
+</body>
+
+</html>

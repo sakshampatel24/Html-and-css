@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+</head>
+<style>
+    .c{
+        width: 50px;
+        height: 50px;
+        background-color: aquamarine;
+        animation-name: f;
+        animation-duration: 10s;
+    }
+   @keyframes f{
+       from {background-color: aquamarine;}
+        to {background-color: yellow;}  
+    }
+    .a{
+        width: 100px;
+        height: 100px;
+        
+        background-color: blue;
+        animation-name: s;
+        animation-duration: 10s;
+        
+    }
+ @keyframes s{
+        0%{background-color: rebeccapurple;}
+        25%{background-color: blueviolet;}
+        50%{background-color: peru;}
+        100%{background-color: palegreen;}
+
+    }
+    .b{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: forestgreen;
+        animation-name: v;
+        animation-duration: 10s;
+        animation-iteration-count: 4;
+        animation-direction: reverse;
+    }
+    @keyframes v{
+        0%{background-color: yellow; left: 0px; top: 0px;}
+        25%{background-color: purple;left: 100px; top: 0px;}
+        50%{background-color: forestgreen;left: 200px; top: 100px;}
+        75%{background-color: skyblue;left: 10px; top: 100px;}
+        100%{background-color: yellowgreen;left: 0px; top: 0px;}
+
+    }
+    .d{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: brown;
+        animation-name: n;
+        animation-duration: 10s;
+        animation-delay: 2s;
+        animation-direction: alternate-reverse;
+        animation-iteration-count: 4;
+    }
+    @keyframes n{
+        0%{background-color:royalblue; left: 0px; top: 0px;}
+        25%{background-color: burlywood;left: 100px; top: 0px;}
+        50%{background-color: forestgreen;left: 200px; top: 100px;}
+        75%{background-color: skyblue;left: 10px; top: 100px;}
+        100%{background-color: yellowgreen;left: 0px; top: 0px;}
+
+    }
+    .e{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: saddlebrown;
+        animation-name: h;
+        animation-duration: 10s;
+        animation-delay: -5s;
+       
+    }
+    @keyframes h{
+        0%{background-color:royalblue; left: 0px; top: 0px;}
+        25%{background-color: burlywood;left: 100px; top: 10px;}
+        50%{background-color: orange;left: 200px; top: 200px;}
+        75%{background-color:rosybrown;left: 10px; top: 100px;}
+        100%{background-color: yellowgreen;left: 0px; top: 0px;}
+
+    }
+    .v{  
+        width: 100px;
+        height: 100px;
+        position: relative;
+        background-color: blueviolet;
+        animation-name: h;
+        animation-duration: 10s;
+        animation-delay: -5s;
+
+    }
+    @keyframes h{
+        0%{background-color:royalblue; left: 0px; top: 0px;}
+        25%{background-color: burlywood;left: 100px; top: 10px;}
+        50%{background-color: orange;left: 200px; top: 200px;}
+        75%{background-color:rosybrown;left: 10px; top: 100px;}
+        100%{background-color: yellowgreen;left: 0px; top: 0px;}
+    }
+    .b img{
+        width: 50px;
+        height: 50px;
+    }
+    .v img{
+        width: 100px;
+        height: 100px;
+    }
+    .c box{
+        width: 100px;
+        height: 100px;
+    }
+    
+   
+   
+</style>
+<body>
+    <div class="v">Rules<img src="images.jpg"</div><br>
+    <div class="d">come<img src="images.jpg" alt=""></div> <br>
+    <div class="c">ring <img src="images.jpg"</div> <br>
+    <div class="a">Animation<img src="images.jpg"</div> <br>
+    <div class="b">Box<img src="https://presentlytech.in/assets/presentlytechlogo.png"</div> <br> <div class="e">Study<img src="images.jpg"</div> 
+    
+</body>
+</html>

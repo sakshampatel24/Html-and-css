@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation2</title>
+</head>
+<style>
+    div{
+        width: 100px;
+        height: 50px;
+        background-color: yellowgreen;
+        font-weight: bold;
+        position: relative;
+        animation:  my  infinite;
+        animation-name: f;
+        animation-duration: 11s;
+        animation-delay: 2s;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    #div1 {animation-timing-function: linear;}
+    #div2 {animation-timing-function: ease;}
+    #div3 {animation-timing-function: ease-in;}
+    #div4 {animation-timing-function: ease-out;}
+    #div5 {animation-timing-function: ease-in-out;}
+    @keyframes my{
+        from {left: 0px;}
+        to {left: 500px;}
+    }
+    @keyframes f{
+        from {top: 0px; background-color: slateblue;}
+        to {top:300px; background-color: aqua;}
+    }
+        
+</style>
+<body>
+   
+   <h1>THE new Animation</h1>
+   <p>the new lines of animation</p>
+   <div>THE</div><br>
+   <div>Rules</div><br>
+   <div id="div1">of</div><br>
+   <div id="div2">ANIMATION</div><br>
+   <div id="div3">Black</div><br>
+   <div id="div4">no Rules</div><br>
+   <div id="div5"> Rules</div><br>
+    
+</body>
+</html>

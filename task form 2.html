@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task form 1</title>
+</head>
+
+<body>
+    <form style="background-color: skyblue;">
+        <h1>Student Registration Form</h1>
+        <label for="fName" style="text-align: left;">First Name:</label>
+        <br>
+        <input type="text" id="fName" name="fName" placeholder="First name">
+        <br>
+        <label for="middle name">middle name:</label>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="middle name">
+        <br>
+        <label for="lLast Name">Last Name:</label>
+        <br>
+        <input type="text" id="Name" name="Name" placeholder="Last name">
+        <br>
+        <br>
+        <label for="Course">Course:</label>
+
+        <input list="Courses" name="Courses" placeholder="Courses" style="height: 25px; width: 80px;"><br>
+        <datalist id="Courses">
+            <option value="BCA">
+            <option value="Bsc">
+            <option value="Bsc(C.s)">
+            <option value="Btech">
+            <option value="Bsc(It)">
+            <option value="BBA">
+            <option value="MCA">
+            <option value="MBA">
+            <option value="Nursing">
+            <option value="BA">
+        </datalist>
+        <br>
+        <label for="Gender">Gender:</label>
+        <br>
+        <input type="radio" id="Gender" name="Gender">
+        <label for="Male">Male</label>
+        <input type="radio" id="Gender" name="Gender">
+        <label for="Female">Female</label>
+        <input type="radio" id="Gender" name="Gender">
+        <label for="Other">Other</label>
+        <br>
+        <br>
+        <label for="Phone"> Phone:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9{10}" ] placeholder="+91" required>
+        <br>
+        <br>
+        <label> </label>
+        <input type="text" id="Phone" name="phone" placeholder="phone">
+        <br>
+        <br>
+        <label for="Current Address"> Current Address:</label>
+        <br>
+        <input type="text" id="Current address" name="Current address" placeholder="Current address">
+        <br>
+        <br>
+<label for="Email">Email</label> 
+<br>
+<input type="email" id="Email" name="Email" placeholder="Asasa@gmail.com">
+<br>
+<br>
+<label for="Password">Password</label>
+<br>
+<input type="password" id="password" name="password" placeholder="Password">
+<br>
+<br>
+<label for="Re-type password">Re-type password</label>
+<br>
+<input type="password" id="Re-type password" name="Re-type password" placeholder="123456">
+<br>
+<br>
+<input type="button" value="Register" style="color:blueviolet; background-color:whitesmoke;">
+
+
+
+
+    </form>
+
+</body>
+
+</html>
